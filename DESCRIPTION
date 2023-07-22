@@ -1,12 +1,14 @@
 Package: ridiculousRcade
-Type: Package
-Title: Offers two Different Games
+Title: Play two different games
 Version: 0.1.0
-Author: Carolin Bauer
-Maintainer: Carolin Bauer <bauer.carolin@campus.lmu.de>
+Authors@R: c(
+    person("Carolin", "Bauer", , "bauer.carolin@campus.lmu.de", role = c("aut", "cre")),
+    person("Stefanie", "Halmburger", ,"Stephanie.halmburger@gmx.de" , role = "aut")
+  )
 Description: The package offers the games tic tac toe and rock paper scissors.
-License: use_mit_license()
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-
+SystemRequirements: C++11

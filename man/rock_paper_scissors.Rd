@@ -10,7 +10,7 @@ rock_paper_scissors(choice)
 \item{choice}{A string. Choices are "rock", "paper" or "scissors"}
 }
 \value{
-A string with result.
+Plays game in Console
 }
 \description{
 Play rock paper scissors

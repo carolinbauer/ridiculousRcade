@@ -2,10 +2,11 @@ Package: ridiculousRcade
 Type: Package
 Title: Offers two Different Games
 Version: 0.1.0
-Author: Carolin Bauer, Stefanie Halmburger
+Author: Carolin Bauer
 Maintainer: Carolin Bauer <bauer.carolin@campus.lmu.de>
 Description: The package offers the games tic tac toe and rock paper scissors.
-License: What license is it under?
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+

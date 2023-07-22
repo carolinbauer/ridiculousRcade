@@ -7,7 +7,7 @@
 tic_tac_toe()
 }
 \value{
-? TODO
+Plays game in Console
 }
 \description{
 Play tic tac toe

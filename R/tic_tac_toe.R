@@ -34,6 +34,9 @@ place_X_random <- function(grid) {
   grid
 }
 
+
+#' tic_tac_toe
+#' @export
 tic_tac_toe <- function() {
   grid <- data.frame(A = rep("-", 3), B = rep("-", 3), C = rep("-", 3))
   print(grid)

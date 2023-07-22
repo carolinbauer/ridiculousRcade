@@ -35,8 +35,12 @@ place_X_random <- function(grid) {
 }
 
 
-#' tic_tac_toe
-#' @export
+#' Play tic tac toe
+#'
+#' @returns A character vector.
+#' @examples
+#' tic_tac_toe()
+
 tic_tac_toe <- function() {
   grid <- data.frame(A = rep("-", 3), B = rep("-", 3), C = rep("-", 3))
   print(grid)

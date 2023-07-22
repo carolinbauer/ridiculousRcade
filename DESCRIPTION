@@ -1,11 +1,11 @@
 Package: ridiculousRcade
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Offers two Different Games
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Carolin Bauer, Stefanie Halmburger
+Maintainer: Carolin Bauer <bauer.carolin@campus.lmu.de>
+Description: The package offers the games tic tac toe and rock paper scissors.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.3

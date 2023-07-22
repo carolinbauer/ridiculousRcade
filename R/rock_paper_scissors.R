@@ -1,3 +1,10 @@
+#' Play rock paper scissors
+#'
+#' @param choice A string. Choices are "rock", "paper", or "scissors"
+#' @returns A character string with result.
+#' @examples
+#' rock_paper_scissors(choice = "paper")
+
 rock_paper_scissors <- function(choice) {
   choice <- tolower(choice)
   match.arg(arg = choice, choices = c("rock", "paper", "scissors"))
@@ -20,7 +27,7 @@ rock_paper_scissors <- function(choice) {
   cat("You chose: ", choice, "\n",
       "Your opponent chose: ", choice_opponent,  "\n",
       result, sep = "")
-  
+
 }
 
 

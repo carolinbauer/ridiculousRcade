@@ -1,4 +1,4 @@
-remove(list=ls())
+
 
 check_for_three <- function(grid) {
   win <- NULL

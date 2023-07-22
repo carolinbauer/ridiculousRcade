@@ -4,6 +4,7 @@
 #' @returns A character string with result.
 #' @examples
 #' rock_paper_scissors(choice = "paper")
+#' @export
 
 rock_paper_scissors <- function(choice) {
   choice <- tolower(choice)

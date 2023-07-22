@@ -2,16 +2,16 @@ remove(list=ls())
 
 check_for_three <- function(grid) {
   win <- NULL
-  if( all(grid$A == c("X", "X", "X")) | 
-      all(grid$B == c("X", "X", "X")) | 
+  if( all(grid$A == c("X", "X", "X")) |
+      all(grid$B == c("X", "X", "X")) |
       all(grid$C == c("X", "X", "X")) |
       all(grid[1, ] == c("X", "X", "X")) |
       all(grid[2, ] == c("X", "X", "X")) |
       all(grid[3, ] == c("X", "X", "X"))) {
     win <- "Opponent"
   }
-  if(all(grid$A == c("o", "o", "o")) | 
-     all(grid$B == c("o", "o", "o")) | 
+  if(all(grid$A == c("o", "o", "o")) |
+     all(grid$B == c("o", "o", "o")) |
      all(grid$C == c("o", "o", "o")) |
      all(grid[1, ] == c("o", "o", "o")) |
      all(grid[2, ] == c("o", "o", "o")) |
@@ -98,5 +98,4 @@ tic_tac_toe <- function() {
   paste(win, "won!")
 }
 
-tic_tac_toe()
 

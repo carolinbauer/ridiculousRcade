@@ -7,7 +7,7 @@
 tic_tac_toe()
 }
 \value{
-A character vector.
+? TODO
 }
 \description{
 Play tic tac toe

@@ -7,10 +7,10 @@
 rock_paper_scissors(choice)
 }
 \arguments{
-\item{choice}{A string. Choices are "rock", "paper", or "scissors"}
+\item{choice}{A string. Choices are "rock", "paper" or "scissors"}
 }
 \value{
-A character string with result.
+A string with result.
 }
 \description{
 Play rock paper scissors

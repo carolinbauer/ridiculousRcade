@@ -1,7 +1,7 @@
 #' Play rock paper scissors
 #'
-#' @param choice A string. Choices are "rock", "paper", or "scissors"
-#' @returns A character string with result.
+#' @param choice A string. Choices are "rock", "paper" or "scissors"
+#' @returns A string with result.
 #' @examples
 #' rock_paper_scissors(choice = "paper")
 #' @export

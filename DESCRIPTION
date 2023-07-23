@@ -1,14 +1,12 @@
 Package: ridiculousRcade
-Title: Play two different games
-Version: 0.1.0
+Version: 0.1
+Date: 07-2023
+Title: 2 short little games for your console.
+Description: Package includes two games you can play when work get's a bit boring. Tic Tac Toe and Rock Paper Scissors
 Authors@R: c(
     person("Carolin", "Bauer", , "bauer.carolin@campus.lmu.de", role = c("aut", "cre")),
-    person("Stefanie", "Halmburger", ,"Stephanie.halmburger@gmx.de" , role = "aut")
+    person("Stefanie", "Halmburger", , "halmburger.stefanie@@campus.lmu.de", role = "aut")
   )
-Description: The package offers the games tic tac toe and rock paper scissors.
-License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
+License: MIT + file LICENSE
 RoxygenNote: 7.2.3
-SystemRequirements: C++11

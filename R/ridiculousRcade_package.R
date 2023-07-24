@@ -7,6 +7,6 @@
 #' @encoding UTF-8
 #' @docType package
 #' @author Carolin Bauer < bauer.carolin@@campus.lmu.de >
-#' @author Stefanie Halmburger <halmburger.stefanie@@campus.lmu.de>
+#' @author Stefanie Halmburger <S.Halmburger@@campus.lmu.de>
 #'
 NULL

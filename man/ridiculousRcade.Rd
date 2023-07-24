@@ -11,5 +11,5 @@ This package contains two functions, tic_tac_toe() and rock_paper_scissors()
 \author{
 Carolin Bauer < bauer.carolin@campus.lmu.de >
 
-Stefanie Halmburger <halmburger.stefanie@campus.lmu.de>
+Stefanie Halmburger <S.Halmburger@campus.lmu.de>
 }

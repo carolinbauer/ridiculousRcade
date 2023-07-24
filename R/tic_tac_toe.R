@@ -1,4 +1,11 @@
-
+#helper function: check_for_three
+#checks if the game is over (three tiles placed in row/col/diagonal)
+#input:
+#Dataframe 3x3, colnames= c("A", "B", "C"), either empty ("-"),
+#or filled with ("X") or ("o").
+#output:
+#if no winner, no output, if winner, then output string with winner ("Opponent")
+#or ("You")
 check_for_three <- function(grid) {
   win <- NULL
   if( all(grid$A == c("X", "X", "X")) |
@@ -28,12 +35,18 @@ check_for_three <- function(grid) {
   if(!is.null(win)) win
 }
 
+#helper function: place_X_random
+#places Opponents character on grid randomly
+#input:
+#Dataframe 3x3, colnames= c("A", "B", "C"), either empty ("-"),
+#or filled with ("X") or ("o").
+#output:
+#Input grid, now with additional X placed by Opponent.
 place_X_random <- function(grid) {
   empty <- which(grid == "-", arr.ind = T)[sample(seq(nrow(which(grid == "-", arr.ind = T))), 1), ]
   grid[empty[[1]], empty[[2]]] <- "X"
   grid
 }
-
 
 #' Play tic tac toe
 #'

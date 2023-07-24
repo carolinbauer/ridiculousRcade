@@ -1,11 +1,11 @@
 Package: ridiculousRcade
 Version: 0.1
 Date: 07-2023
-Title: 2 short little games for your console.
+Title: 2 Short little Games for your Console.
 Description: Package includes two games you can play when work get's a bit boring. Tic Tac Toe and Rock Paper Scissors
-Authors@R: c(
+Authors: c(
     person("Carolin", "Bauer", , "bauer.carolin@campus.lmu.de", role = c("aut", "cre")),
-    person("Stefanie", "Halmburger", , "halmburger.stefanie@@campus.lmu.de", role = "aut")
+    person("Stefanie", "Halmburger", , "S.Halmburger@campus.lmu.de", role = "aut")
   )
 Encoding: UTF-8
 License: MIT + file LICENSE
